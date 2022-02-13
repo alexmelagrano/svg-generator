@@ -1,0 +1,123 @@
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: white;
+}
+
+.page-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-container {
+  width: 100%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.header-container h1 {
+  margin: 0;
+  padding: 24px;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.svg-container {
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 250px;
+  margin-right: 100px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+}
+
+.controls-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px 0;
+}
+
+#colorarray {
+  width: 130px;
+}
+
+.controls-footer {
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+input {
+  padding: 2px 4px;
+  border-radius: 0px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 16px;
+  background: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.svg-frame {
+  background-color: #fff;
+  border: solid 3vh #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 7vh;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+svg {
+  width: auto;
+  height: 50vh;
+  border: solid 2px;
+  border-bottom-color: #ffe;
+  border-left-color: #eed;
+  border-right-color: #eed;
+  border-top-color: #ccb;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0;
+  padding: 24px;
+  box-sizing: border-box;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.footer-container a {
+  color: unset;
+  text-decoration: unset;
+}
